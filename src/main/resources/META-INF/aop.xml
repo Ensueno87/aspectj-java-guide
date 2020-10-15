@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="kr.ensueno.EnsuenoAspect"></aspect>
+        <weaver options="-showWeaveInfo">
+            <include within="kr.ensueno.*" />
+        </weaver>
+    </aspects>
+</aspectj>
